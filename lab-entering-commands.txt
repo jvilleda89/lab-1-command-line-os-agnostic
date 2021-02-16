@@ -15,6 +15,7 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
+jacquelinvilleda
 ----------
 Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 
@@ -25,12 +26,22 @@ Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 $ ls D<TAB>
 
 What happens?  Describe it below.
+
+
+.bash_history     .bashrc           .config/          .vscode-server/   jacquelinvilleda/
+.bash_logout      .cache/           .profile          .wget-hsts  
 ----------
 Desktop/    Documents/  Downloads/
-
+ 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
+
+The same thing happened.
+.bash_history     .bashrc           .config/          .vscode-server/   jacquelinvilleda/
+.bash_logout      .cache/           .profile          .wget-hsts   
+
+
 ----------
 rdrgeerwtger yg erwy brg
 
@@ -38,7 +49,9 @@ rdrgeerwtger yg erwy brg
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
+It says:
 
+ls: cannot access 'D': No such file or directory
 
 
 ==========
@@ -59,7 +72,7 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+ls: cannot access 'Documents': No such file or directory
 
 ==========
 5.  Type:
@@ -89,7 +102,7 @@ $ ls /b<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+bin/  boot/ 
 
 ==========
 8.  Type:
