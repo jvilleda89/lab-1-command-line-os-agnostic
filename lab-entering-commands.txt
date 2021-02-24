@@ -16,8 +16,8 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
-
+Desktop    Music     Recordings  house
+Documents  Pictures  Videos      jacquelinvilleda
 
 ==========
 2a. Type: 
@@ -26,19 +26,17 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-Desktop/    Documents/  Downloads/
-
+nothing happens
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-rdrgeerwtger yg erwy brg
-
+Desktop/   Documents/ 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: cannot access 'D': No such file or directory
 
 
 ==========
@@ -48,7 +46,10 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+total 76
+-rw-r--r-- 1 jvilleda89 jvilleda89 47104 Feb 23 18:20 Case_Document_7-1.doc
+-rw-r--r-- 1 jvilleda89 jvilleda89 27160 Feb 23 18:20 Figure_7-4.pdf
+-rw-r--r-- 1 jvilleda89 jvilleda89   448 Feb 23 18:20 sample-text-file.txt
 
 
 ==========
@@ -58,7 +59,7 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+Nothing because you did not indicate <ENTER>
 
 
 ==========
@@ -68,7 +69,10 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+total 76
+-rw-r--r-- 1 jvilleda89 jvilleda89 47104 Feb 23 18:20 Case_Document_7-1.doc
+-rw-r--r-- 1 jvilleda89 jvilleda89 27160 Feb 23 18:20 Figure_7-4.pdf
+-rw-r--r-- 1 jvilleda89 jvilleda89   448 Feb 23 18:20 sample-text-file.txt
 
 
 ==========
@@ -78,6 +82,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
+ls: cannot access 'D': No such file or directory
 
 
 
@@ -88,7 +93,8 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+nothing because you only asked me to press tab once. 
+I get an error that says ls: cannot access '/b': No such file or directory
 
 
 ==========
@@ -98,37 +104,38 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+Nothing because you didn't indicate <ENTER> after
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
+cd -
 
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-l and -a
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls list command
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+Documents
 
 
 ==========
@@ -139,6 +146,17 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
+Command 'foo' not found, did you mean:
+
+  command 'fox' from deb objcryst-fox
+  command 'fio' from deb fio
+  command 'fgo' from deb fgo
+  command 'woo' from deb python-woo
+  command 'goo' from deb goo
+  command 'fop' from deb fop
+  command 'fog' from deb ruby-fog
+
+Try: sudo apt install <deb name>
 
 
 ==========
@@ -148,7 +166,8 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+Desktop    Music     Recordings  house
+Documents  Pictures  Videos      jacquelinvilleda
 
 
 ==========
@@ -158,3 +177,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+The command is ls 
+flag is -a
+argument is Documents
+prompt is $
